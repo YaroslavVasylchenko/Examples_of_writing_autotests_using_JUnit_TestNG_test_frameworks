@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="tests  Man and Woman">
+
+    <test name="Woman and Man Getter and Setter Tests">
+        <classes>
+            <class name="TestWoman">
+                <methods>
+                    <include name="testGetLastNameOriginal"/>
+                    <include name="testGetLastNameOriginalNotNull"/>
+                    <include name="testSetLastNameOriginal"/>
+                    <include name="testSetLastNameOriginalNotNull"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
